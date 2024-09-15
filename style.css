@@ -1,0 +1,198 @@
+
+*{
+    margin: 0.05rem;
+    font-family: "RocknRoll One", sans-serif;
+    
+}
+body {
+    overflow-x: hidden;
+}
+.trial{
+    width: 85vw;
+    margin: auto;
+}
+.myHero{
+    margin-bottom: 6rem !important;
+    margin-top: 7rem !important;
+}
+
+.the-hero{
+    width: 87vw;
+    margin: auto;
+}
+p{
+    font-family: sans-serif;
+    color: grey;
+}
+.logo{
+    text-align: center;
+}
+.navbar-toggler-icon{
+    font-size: 0.8rem;
+}
+.myBorder{
+    border: red solid 0.1rem;
+}
+.first{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    cursor: default !important;
+    padding-right: 1rem !important;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.secure p{
+    font-size: 0.8rem;
+}
+.mainBtn{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.myList{
+    list-style: none;
+}
+.row-btn{
+    width: 20rem !important;
+    height: 7rem;
+    background-color: #FDE4E4 !important;
+    border-radius: 0.5rem !important;
+    transition-duration: 0.3s;
+    
+}
+.row-btn:hover{
+    transform: translateY(-7px);
+}
+.row-btn p{
+     font-family: "RocknRoll One", sans-serif !important;
+}
+.serve{
+    margin-top: 6rem;
+    margin-bottom: 4rem;  
+}
+.main-nav{
+    background-color: red;
+    border-radius: 0.5rem;
+}
+.original{
+    border-radius: 50%;
+    height: 17rem;
+    width: 17rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.flip-card {
+    width: 230px;
+    height: 200px;
+    perspective: 600px;
+    transition: transform 0.8s ease-in-out;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 17rem;
+    height: 10rem;
+    /* text-align: center; */
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 17rem;
+    height: 17rem;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    transform: rotateY(0deg);
+    left: 0;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card1 {
+    width: 200px;
+    height: 200px;
+    perspective: 800px;
+    transition: transform 0.8s ease-in-out;
+}
+
+.flip-card-inner1 {
+    position: relative;
+    width: 17rem;
+    height: 10rem;
+    /* text-align: center; */
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: 17rem;
+    height: 17rem;
+    backface-visibility: hidden;
+}
+
+.flip-card-front1 {
+    transform: rotateY(0deg);
+    left: 0;
+    /* margin-left: 10rem; */
+}
+
+  .flip-card-back1 {
+    transform: rotateY(180deg);
+}
+
+.flip-card1:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+}
+.nav-tabs button{
+    border-radius: 0.3rem;
+}
+.tab-content{
+    margin-bottom: 15rem !important;
+}
+.line{
+    line-height: 2rem;
+}
+.testimonials{
+    display: flex !important;
+}
+footer{
+    background-color: #FDE4E4;
+    padding: 3rem;
+}
+.myForm input{
+    border: none !important;
+    background: transparent;
+    outline: none;
+}
+.myForm button{
+    border: none !important;
+    background: red;
+    color: white;
+    height: 3rem;
+}
+.myForm{
+    display: flex;
+    justify-content: space-between;
+    border: 0.1rem solid black;
+    height: 3.5rem;
+    width: 22rem;
+    align-items: center;
+    border-radius: .4rem;
+    padding-right: .5rem;
+    padding-left: 1rem;
+}
+
